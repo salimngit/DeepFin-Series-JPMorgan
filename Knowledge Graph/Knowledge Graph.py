@@ -1,4 +1,29 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC <h1>Deep Fin: Knowledge Graphs</h1>
+# MAGIC 
+# MAGIC <h2>Agenda</h2>
+# MAGIC <ul>
+# MAGIC   <li>A perspective on the journey towards a data-driven enterprise</li>
+# MAGIC <li>Tapping into actionable insights that exists in unstructured text</li>
+# MAGIC <li>Moving towards derived knowledge </li>
+# MAGIC <li>Architectural capabilities to enable a domain specific knowledge graph</li>
+# MAGIC </ul>
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC <h1>1: Introduction</h1>
+# MAGIC 
+# MAGIC Enterprises ambitions to being data-driven organizations 
+# MAGIC <ul>
+# MAGIC   <li>Analytics is broader than BI and predictive modelling</li>
+# MAGIC <li>Text analytics brings unstructured information into the equation</li>
+# MAGIC <li>This mix of information may involve many layers of complexity and interconnected relationships and it won’t easily fit into a structured database or data warehouse</li>
+# MAGIC </ul>
+
+# COMMAND ----------
+
 import os
 import pandas as pd
 import spacy 
